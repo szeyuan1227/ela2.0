@@ -1,0 +1,12 @@
+[0.016s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/usb_cam': /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam
+[0.027s] [31mCMake Error at CMakeLists.txt:10 (if):
+[0.028s]   if given arguments:
+[0.028s] 
+[0.028s]     "EQUAL" "2"
+[0.028s] 
+[0.028s]   Unknown arguments specified
+[0.028s] 
+[0.028s] -- Configuring incomplete, errors occurred!
+[0.028s] See also "/home/szeyuan/Desktop/ros/ros_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[0.028s] [0m
+[0.031s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam

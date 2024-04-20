@@ -1,0 +1,28 @@
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:[m[K In member function ‘[01m[Kvoid debict::mecanumbot::teleop::MecanumbotTeleop::on_joy_message(std::unique_ptr<sensor_msgs::msg::Joy_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Joy_<std::allocator<void> > > >)[m[K’:
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:78:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   78 |     twist_message->[01;31m[Ktwist[m[K.linear.x = get_axis_value(msg, move_forward_config_) + get_axis_value(msg, move_reverse_config_);
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:79:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   79 |     twist_message->[01;31m[Ktwist[m[K.linear.y = get_axis_value(msg, move_left_config_) + get_axis_value(msg, move_right_config_);
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:80:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   80 |     twist_message->[01;31m[Ktwist[m[K.linear.z = 0.0;
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:81:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   81 |     twist_message->[01;31m[Ktwist[m[K.angular.x = 0.0;
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:82:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   82 |     twist_message->[01;31m[Ktwist[m[K.angular.y = 0.0;
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+   83 |     twist_message->[01;31m[Ktwist[m[K.angular.z = get_axis_value(msg, turn_left_config_) + get_axis_value(msg, turn_right_config_);
+      |                    [01;31m[K^~~~~[m[K
+      |                    [32m[KTwist_[m[K
+gmake[2]: *** [CMakeFiles/mecanumbot_teleop.dir/build.make:90: CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mecanumbot_teleop.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

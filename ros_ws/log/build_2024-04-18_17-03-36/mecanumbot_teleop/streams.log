@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16
+[0.053s] [ 25%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/node_main.cpp.o[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o[0m
+[0.054s] [ 75%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_joystick.cpp.o[0m
+[6.192s] [100%] [32m[1mLinking CXX executable mecanumbot_teleop[0m
+[6.499s] [100%] Built target mecanumbot_teleop
+[6.506s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16
+[6.524s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop
+[6.530s] -- Install configuration: ""
+[6.530s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config
+[6.530s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config/teleop_config.yaml
+[6.530s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop
+[6.532s] -- Set runtime path of "/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop" to ""
+[6.533s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/package_run_dependencies/mecanumbot_teleop
+[6.533s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/parent_prefix_path/mecanumbot_teleop
+[6.533s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.sh
+[6.533s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.dsv
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.sh
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.dsv
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.bash
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.sh
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.zsh
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.dsv
+[6.534s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv
+[6.535s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/packages/mecanumbot_teleop
+[6.535s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig.cmake
+[6.535s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig-version.cmake
+[6.535s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.xml
+[6.536s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop

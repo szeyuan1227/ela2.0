@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target v4l2_camera[0m
+[ 42%] Built target v4l2_camera
+[ 71%] Built target v4l2_camera_node
+[100%] Built target v4l2_camera_compose_test

@@ -1,0 +1,4 @@
+Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description -- -j16 -l16
+Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description -- -j16 -l16
+Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description
+Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description

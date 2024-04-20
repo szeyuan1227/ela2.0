@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/CMakeFiles/grabthecam-populate"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/CMakeFiles/grabthecam-populate.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/CMakeFiles/grabthecam-populate-complete.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-build.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-configure.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-download.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-install.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-patch.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-test.rule"
+		},
+		{
+			"file" : "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-subbuild/grabthecam-populate-prefix/src/grabthecam-populate-stamp/grabthecam-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"grabthecam-populate"
+		],
+		"name" : "grabthecam-populate"
+	}
+}

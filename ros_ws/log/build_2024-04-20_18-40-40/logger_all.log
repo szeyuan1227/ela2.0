@@ -1,0 +1,744 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/home/szeyuan/.local/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7613be8db880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7613be8283d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7613be8283d0>>)
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.183s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/szeyuan/Desktop/ros/ros_ws'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_1' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_1'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mediapipe_ros2) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mediapipe_ros2' with type 'ros.ament_python' and name 'mediapipe_ros2'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_bringup) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_bringup' with type 'ros.ament_cmake' and name 'mecanumbot_bringup'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_control) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_control' with type 'ros.ament_cmake' and name 'mecanumbot_control'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_controller) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_controller' with type 'ros.ament_cmake' and name 'mecanumbot_controller'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_description) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_description' with type 'ros.ament_cmake' and name 'mecanumbot_description'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_hardware) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_hardware' with type 'ros.ament_cmake' and name 'mecanumbot_hardware'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-mecanum-bot/mecanumbot_teleop) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-mecanum-bot/mecanumbot_teleop' with type 'ros.ament_cmake' and name 'mecanumbot_teleop'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/szeyuan/Desktop/ros/ros_ws/install
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'mediapipe_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'mediapipe_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_control_demo_description', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'mecanumbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'mecanumbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1', 'merge_install': False, 'path': '/home/szeyuan/Desktop/ros/ros_ws/src/example_1', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description' with build type 'ament_cmake'
+[0.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description'
+[0.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_control_demo_description'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('mediapipe_ros2', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera'
+[0.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description -- -j16 -l16
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description -- -j16 -l16
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control -- -j16 -l16
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller -- -j16 -l16
+[0.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware -- -j16 -l16
+[0.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16
+[0.456s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'mediapipe_ros2' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description -- -j16 -l16
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description -- -j16 -l16
+[0.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller -- -j16 -l16
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control -- -j16 -l16
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware -- -j16 -l16
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_description)
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description' for CMake module files
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description' for CMake config files
+[0.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_description', 'cmake_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.sh'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/bin'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/lib/pkgconfig/mecanumbot_description.pc'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/lib/python3.10/site-packages'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/bin'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.sh'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.bash'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.zsh'
+[0.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/colcon-core/packages/mecanumbot_description)
+[0.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_controller)
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller' for CMake module files
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller' for CMake config files
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'cmake_prefix_path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib'
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'ld_library_path_lib')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.sh'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/bin'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/pkgconfig/mecanumbot_controller.pc'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/python3.10/site-packages'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/bin'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.sh'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.bash'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/colcon-core/packages/mecanumbot_controller)
+[0.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_teleop)
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop' for CMake module files
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop' for CMake config files
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_teleop', 'cmake_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/bin'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/pkgconfig/mecanumbot_teleop.pc'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/python3.10/site-packages'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/bin'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.bash'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.zsh'
+[0.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/colcon-core/packages/mecanumbot_teleop)
+[0.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_control)
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control' for CMake module files
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control' for CMake config files
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_control', 'cmake_prefix_path')
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.ps1'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.sh'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/bin'
+[0.530s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/pkgconfig/mecanumbot_control.pc'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/python3.10/site-packages'
+[0.531s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/bin'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv'
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.sh'
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.bash'
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control
+[0.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.zsh'
+[0.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/colcon-core/packages/mecanumbot_control)
+[0.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_hardware)
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware' for CMake module files
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_hardware
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'cmake_prefix_path')
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.sh'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib'
+[0.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'ld_library_path_lib')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.sh'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/bin'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib/pkgconfig/mecanumbot_hardware.pc'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib/python3.10/site-packages'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/bin'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.ps1'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.bash'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.zsh'
+[0.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/colcon-core/packages/mecanumbot_hardware)
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description' for CMake module files
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_description
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description' for CMake config files
+[0.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/bin'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/bin'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[0.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[0.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_description)
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description' for CMake module files
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description' for CMake config files
+[0.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_description', 'cmake_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/hook/cmake_prefix_path.sh'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/bin'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/lib/pkgconfig/mecanumbot_description.pc'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/lib/python3.10/site-packages'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/bin'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.bash'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.zsh'
+[0.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/colcon-core/packages/mecanumbot_description)
+[0.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_controller)
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller' for CMake module files
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'cmake_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/cmake_prefix_path.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib'
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_controller', 'ld_library_path_lib')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/hook/ld_library_path_lib.sh'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/bin'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/pkgconfig/mecanumbot_controller.pc'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/python3.10/site-packages'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/bin'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.bash'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.zsh'
+[0.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/colcon-core/packages/mecanumbot_controller)
+[0.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup' with build type 'ament_cmake'
+[0.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup'
+[0.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_teleop)
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_teleop', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/pkgconfig/mecanumbot_teleop.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/python3.10/site-packages'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.bash'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/colcon-core/packages/mecanumbot_teleop)
+[0.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_control)
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control' for CMake module files
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control' for CMake config files
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_control', 'cmake_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/pkgconfig/mecanumbot_control.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/python3.10/site-packages'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/bin'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.bash'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.zsh'
+[0.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/colcon-core/packages/mecanumbot_control)
+[0.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_hardware)
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware' for CMake module files
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware' for CMake config files
+[0.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'cmake_prefix_path')
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/cmake_prefix_path.sh'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_hardware', 'ld_library_path_lib')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/hook/ld_library_path_lib.sh'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/bin'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib/pkgconfig/mecanumbot_hardware.pc'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/lib/python3.10/site-packages'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/bin'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.bash'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.zsh'
+[0.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware/share/colcon-core/packages/mecanumbot_hardware)
+[0.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description' for CMake module files
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description' for CMake config files
+[0.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/bin'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[0.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/szeyuan/Desktop/ros/ros_ws/src/example_1' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/szeyuan/Desktop/ros/ros_ws/src/example_1'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup -- -j16 -l16
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1 -- -j16 -l16
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera
+[0.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera' for CMake module files
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera' for CMake config files
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib'
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/bin'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[0.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup -- -j16 -l16
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1 -- -j16 -l16
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera' for CMake module files
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib'
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/python3.10/site-packages'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/bin'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[0.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[0.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_bringup)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup' for CMake module files
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_bringup
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup' for CMake config files
+[0.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_bringup', 'cmake_prefix_path')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/bin'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/lib/pkgconfig/mecanumbot_bringup.pc'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/lib/python3.10/site-packages'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/bin'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.sh'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.bash'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.zsh'
+[0.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/colcon-core/packages/mecanumbot_bringup)
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1
+[0.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanumbot_bringup)
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup' for CMake module files
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup' for CMake config files
+[0.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanumbot_bringup', 'cmake_prefix_path')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/hook/cmake_prefix_path.sh'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/bin'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/lib/pkgconfig/mecanumbot_bringup.pc'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/lib/python3.10/site-packages'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/bin'
+[0.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.sh'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.bash'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.zsh'
+[0.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup/share/colcon-core/packages/mecanumbot_bringup)
+[0.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_1)
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1' for CMake module files
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/ros2_control_demo_example_1
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1' for CMake config files
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'cmake_prefix_path')
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.ps1'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.sh'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib'
+[0.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'ld_library_path_lib')
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.dsv'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.sh'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/bin'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib/pkgconfig/ros2_control_demo_example_1.pc'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib/python3.10/site-packages'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/bin'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.sh'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.bash'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.zsh'
+[0.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/colcon-core/packages/ros2_control_demo_example_1)
+[0.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_1)
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1' for CMake module files
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib'
+[0.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'ld_library_path_lib')
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.sh'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/bin'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib/pkgconfig/ros2_control_demo_example_1.pc'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/lib/python3.10/site-packages'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.bash'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.zsh'
+[0.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1/share/colcon-core/packages/ros2_control_demo_example_1)
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2': PYTHONPATH=/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/prefix_override:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build install --record /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed install_data
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2' for CMake module files
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2' returned '0': PYTHONPATH=/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/prefix_override:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build install --record /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed install_data
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2' for CMake config files
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/pkgconfig/mediapipe_ros2.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('mediapipe_ros2', 'pythonpath')
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/pythonpath.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/pythonpath.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/hook/pythonpath.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/bin'
+[0.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mediapipe_ros2)
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/package.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/package.sh'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/package.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/colcon-core/packages/mediapipe_ros2)
+[0.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.935s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.939s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.946s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/szeyuan/Desktop/ros/ros_ws/install/local_setup.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/szeyuan/Desktop/ros/ros_ws/install/_local_setup_util_ps1.py'
+[0.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/szeyuan/Desktop/ros/ros_ws/install/setup.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/szeyuan/Desktop/ros/ros_ws/install/local_setup.sh'
+[0.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/szeyuan/Desktop/ros/ros_ws/install/_local_setup_util_sh.py'
+[0.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/szeyuan/Desktop/ros/ros_ws/install/setup.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/szeyuan/Desktop/ros/ros_ws/install/local_setup.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/szeyuan/Desktop/ros/ros_ws/install/setup.bash'
+[0.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/szeyuan/Desktop/ros/ros_ws/install/local_setup.zsh'
+[0.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/szeyuan/Desktop/ros/ros_ws/install/setup.zsh'

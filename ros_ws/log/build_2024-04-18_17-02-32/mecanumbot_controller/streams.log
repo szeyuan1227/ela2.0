@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller
+[0.031s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.218s] -- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.252s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.256s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.817s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.836s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.842s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.849s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.857s] -- Looking for pthread.h
+[0.907s] -- Looking for pthread.h - found
+[0.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.953s] -- Found Threads: TRUE  
+[1.124s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.336s] -- Configuring done
+[1.353s] -- Generating done
+[1.354s] -- Build files have been written to: /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_controller

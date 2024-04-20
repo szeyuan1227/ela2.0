@@ -1,0 +1,7 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[ 42%] Built target v4l2_camera
+[ 57%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[ 71%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[ 85%] Built target v4l2_camera_node
+[100%] Built target v4l2_camera_compose_test

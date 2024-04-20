@@ -1,0 +1,51 @@
+[0.638s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2': PYTHONPATH=/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/prefix_override:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build install --record /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed install_data
+[0.775s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.775s]   warnings.warn(
+[0.780s] running egg_info
+[0.780s] creating ../../build/mediapipe_ros2/mediapipe_ros2.egg-info
+[0.781s] writing ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/entry_points.txt
+[0.781s] writing requirements to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/requires.txt
+[0.781s] writing top-level names to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/top_level.txt
+[0.781s] writing manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[0.782s] reading manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[0.782s] writing manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[0.782s] running build
+[0.783s] running build_py
+[0.783s] creating /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build
+[0.783s] creating /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib
+[0.783s] creating /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[0.783s] copying mediapipe_ros2/hands.py -> /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[0.783s] copying mediapipe_ros2/gesture_to_cmdvel.py -> /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[0.783s] copying mediapipe_ros2/__init__.py -> /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[0.783s] running install
+[0.783s] running install_lib
+[0.783s] creating /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[0.783s] copying /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/hands.py -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[0.783s] copying /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/gesture_to_cmdvel.py -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[0.783s] copying /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/__init__.py -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[0.784s] byte-compiling /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/hands.py to hands.cpython-310.pyc
+[0.785s] byte-compiling /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/gesture_to_cmdvel.py to gesture_to_cmdvel.cpython-310.pyc
+[0.785s] byte-compiling /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/__init__.py to __init__.cpython-310.pyc
+[0.785s] running install_data
+[0.785s] copying package.xml -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2
+[0.785s] copying ./launch/hand_gesture.launch.py -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2
+[0.785s] creating /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/stop.png -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/mediapipe_ros2 -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/left.png -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/back.png -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/right.png -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.785s] copying resource/front.png -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[0.786s] creating /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[0.786s] copying keypoint_classifier/keypoint_classifier_label.csv -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[0.786s] copying keypoint_classifier/keypoint_classifier.py -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[0.786s] copying keypoint_classifier/keypoint_classifier.tflite -> /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[0.786s] running install_egg_info
+[0.787s] Copying ../../build/mediapipe_ros2/mediapipe_ros2.egg-info to /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2-0.0.0-py3.10.egg-info
+[0.787s] running install_scripts
+[0.801s] Installing gesture_to_cmdvel script to /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[0.801s] Installing hands script to /home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[0.802s] writing list of installed files to '/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/install.log'
+[0.817s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/src/mediapipe_ros2' returned '0': PYTHONPATH=/home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/prefix_override:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/build install --record /home/szeyuan/Desktop/ros/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed install_data

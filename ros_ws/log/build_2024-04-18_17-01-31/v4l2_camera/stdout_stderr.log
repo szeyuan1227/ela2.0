@@ -1,0 +1,3 @@
+[ 42%] Built target v4l2_camera
+[100%] Built target v4l2_camera_node
+[100%] Built target v4l2_camera_compose_test

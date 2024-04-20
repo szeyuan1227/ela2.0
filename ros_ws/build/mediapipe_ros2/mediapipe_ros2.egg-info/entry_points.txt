@@ -1,0 +1,4 @@
+[console_scripts]
+gesture_to_cmdvel = mediapipe_ros2.gesture_to_cmdvel:main
+hands = mediapipe_ros2.hands:main
+

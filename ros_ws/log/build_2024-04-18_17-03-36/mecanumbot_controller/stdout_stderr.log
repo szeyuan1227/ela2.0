@@ -1,0 +1,41 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/mecanumbot_controller.dir/src/mecanumbot_wheel.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_controller.dir/src/mecanumbot_drive_controller.cpp.o[0m
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type debict::mecanumbot::controller::MecanumbotDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:60:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   60 | controller_interface::return_type MecanumbotDriveController::update([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:60:121:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   60 | controller_interface::return_type MecanumbotDriveController::update(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libmecanumbot_controller.so[0m
+[100%] Built target mecanumbot_controller
+-- Install configuration: ""
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/mecanumbot_controller.xml
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so
+-- Set runtime path of "/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so" to ""
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/include/include
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_drive_controller.hpp
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_wheel.hpp
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_controller_compiler.h
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/package_run_dependencies/mecanumbot_controller
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/parent_prefix_path/mecanumbot_controller
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.bash
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.zsh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/packages/mecanumbot_controller
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanumbot_controller
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig-version.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.xml

@@ -1,0 +1,8 @@
+[0.028s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.075s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[3.883s] [ 28%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[4.059s] [ 42%] Built target v4l2_camera
+[4.074s] [ 57%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[4.074s] [ 71%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[4.181s] [ 85%] Built target v4l2_camera_node
+[4.362s] [100%] Built target v4l2_camera_compose_test

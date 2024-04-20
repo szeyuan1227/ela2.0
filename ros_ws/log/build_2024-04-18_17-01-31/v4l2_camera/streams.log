@@ -1,0 +1,4 @@
+[0.016s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.054s] [ 42%] Built target v4l2_camera
+[0.072s] [100%] Built target v4l2_camera_node
+[0.073s] [100%] Built target v4l2_camera_compose_test

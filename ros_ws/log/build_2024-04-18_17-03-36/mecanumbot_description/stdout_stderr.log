@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description
+-- Install configuration: ""
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf/mecanumbot.urdf
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz/model.rviz
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rl_wheel_link.STL
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fl_wheel_link.STL
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fr_wheel_link.STL
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rr_wheel_link.STL
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config/robot_controller_config.yaml
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/package_run_dependencies/mecanumbot_description
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/parent_prefix_path/mecanumbot_description
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.bash
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.zsh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/packages/mecanumbot_description
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig-version.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.xml

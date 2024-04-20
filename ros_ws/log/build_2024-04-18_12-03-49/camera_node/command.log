@@ -1,0 +1,2 @@
+Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-camera-node -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/camera_node
+Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/camera_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-camera-node -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/camera_node

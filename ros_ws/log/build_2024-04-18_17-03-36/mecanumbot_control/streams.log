@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control -- -j16 -l16
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_control_node.dir/src/mecanumbot_control_node.cpp.o[0m
+[3.739s] [100%] [32m[1mLinking CXX executable mecanumbot_control_node[0m
+[3.859s] [100%] Built target mecanumbot_control_node
+[3.866s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control -- -j16 -l16
+[3.882s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control
+[3.887s] -- Install configuration: ""
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node
+[3.887s] -- Set runtime path of "/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node" to ""
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/package_run_dependencies/mecanumbot_control
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/parent_prefix_path/mecanumbot_control
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.sh
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.dsv
+[3.887s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.sh
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.dsv
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.bash
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.sh
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.zsh
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.dsv
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/packages/mecanumbot_control
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig.cmake
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig-version.cmake
+[3.888s] -- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.xml
+[3.890s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_control

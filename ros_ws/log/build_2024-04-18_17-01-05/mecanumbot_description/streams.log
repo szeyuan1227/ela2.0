@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description': /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.279s] -- Configuring incomplete, errors occurred!
+[0.279s] See also "/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_description/CMakeFiles/CMakeOutput.log".
+[0.279s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.279s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.279s]   has asked CMake to find a package configuration file provided by
+[0.280s]   "ament_cmake", but CMake did not find one.
+[0.280s] 
+[0.280s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.280s]   any of the following names:
+[0.280s] 
+[0.280s]     ament_cmakeConfig.cmake
+[0.280s]     ament_cmake-config.cmake
+[0.280s] 
+[0.280s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.280s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.280s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.280s]   has been installed.
+[0.280s] 
+[0.280s] [0m

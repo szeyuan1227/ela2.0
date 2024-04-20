@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target mecanumbot_teleop[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable mecanumbot_teleop[0m
+[100%] Built target mecanumbot_teleop

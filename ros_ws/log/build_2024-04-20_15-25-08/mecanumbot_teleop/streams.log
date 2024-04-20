@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target mecanumbot_teleop[0m
+[0.220s] [ 25%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o[0m
+[1.597s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:[m[K In member function ‘[01m[Kvoid debict::mecanumbot::teleop::MecanumbotTeleop::on_joy_message(std::unique_ptr<sensor_msgs::msg::Joy_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::Joy_<std::allocator<void> > > >)[m[K’:
+[1.597s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:78:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.597s]    78 |     twist_message->[01;31m[Ktwist[m[K.linear.x = get_axis_value(msg, move_forward_config_) + get_axis_value(msg, move_reverse_config_);
+[1.597s]       |                    [01;31m[K^~~~~[m[K
+[1.597s]       |                    [32m[KTwist_[m[K
+[1.597s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:79:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.597s]    79 |     twist_message->[01;31m[Ktwist[m[K.linear.y = get_axis_value(msg, move_left_config_) + get_axis_value(msg, move_right_config_);
+[1.597s]       |                    [01;31m[K^~~~~[m[K
+[1.597s]       |                    [32m[KTwist_[m[K
+[1.597s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:80:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.597s]    80 |     twist_message->[01;31m[Ktwist[m[K.linear.z = 0.0;
+[1.597s]       |                    [01;31m[K^~~~~[m[K
+[1.597s]       |                    [32m[KTwist_[m[K
+[1.597s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:81:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.597s]    81 |     twist_message->[01;31m[Ktwist[m[K.angular.x = 0.0;
+[1.597s]       |                    [01;31m[K^~~~~[m[K
+[1.598s]       |                    [32m[KTwist_[m[K
+[1.598s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:82:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.598s]    82 |     twist_message->[01;31m[Ktwist[m[K.angular.y = 0.0;
+[1.598s]       |                    [01;31m[K^~~~~[m[K
+[1.598s]       |                    [32m[KTwist_[m[K
+[1.598s] [01m[K/home/szeyuan/Desktop/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop/src/mecanumbot_teleop.cpp:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+[1.598s]    83 |     twist_message->[01;31m[Ktwist[m[K.angular.z = get_axis_value(msg, turn_left_config_) + get_axis_value(msg, turn_right_config_);
+[1.598s]       |                    [01;31m[K^~~~~[m[K
+[1.598s]       |                    [32m[KTwist_[m[K
+[3.158s] gmake[2]: *** [CMakeFiles/mecanumbot_teleop.dir/build.make:90: CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o] Error 1
+[3.158s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mecanumbot_teleop.dir/all] Error 2
+[3.158s] gmake: *** [Makefile:146: all] Error 2
+[3.159s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop' returned '2': CMAKE_PREFIX_PATH=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera:/home/szeyuan/Desktop/ros/ros_ws/install/mediapipe_ros2:/opt/ros/humble:/home/szeyuan/Desktop/ros/ros_ws/install/usb_cam:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_example_1:/home/szeyuan/Desktop/ros/ros_ws/install/ros2_control_demo_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_hardware:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_bringup:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_description:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_controller:/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_control /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/mecanumbot_teleop -- -j16 -l16

@@ -1,0 +1,25 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/node_main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_joystick.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mecanumbot_teleop[0m
+[100%] Built target mecanumbot_teleop
+-- Install configuration: ""
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config/teleop_config.yaml
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop
+-- Set runtime path of "/home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop" to ""
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/package_run_dependencies/mecanumbot_teleop
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/parent_prefix_path/mecanumbot_teleop
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.bash
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.sh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.zsh
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/packages/mecanumbot_teleop
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig-version.cmake
+-- Installing: /home/szeyuan/Desktop/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.xml

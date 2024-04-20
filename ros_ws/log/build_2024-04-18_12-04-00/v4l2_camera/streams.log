@@ -1,0 +1,83 @@
+[0.015s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera
+[0.025s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.233s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.234s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] [0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m
+[0.629s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[0.631s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.639s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.639s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera/include>
+[0.639s] -- Configured cppcheck exclude dirs and/or files: 
+[0.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.641s] -- Configured cpplint exclude dirs and/or files: 
+[0.641s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.642s] -- Added test 'lint_cmake' to check CMake code style
+[0.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.644s] -- Added test 'uncrustify' to check C / C++ code style
+[0.644s] -- Configured uncrustify additional arguments: 
+[0.644s] -- Added test 'xmllint' to check XML markup files
+[0.646s] -- Configuring done
+[0.657s] -- Generating done
+[0.658s] -- Build files have been written to: /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera
+[0.664s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera
+[0.665s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.690s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera[0m
+[0.708s] [ 42%] Built target v4l2_camera
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera_node[0m
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera_compose_test[0m
+[0.730s] [ 71%] Built target v4l2_camera_node
+[0.732s] [100%] Built target v4l2_camera_compose_test
+[0.739s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera -- -j16 -l16
+[0.761s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera
+[0.767s] -- Install configuration: ""
+[0.767s] -- Execute custom install script
+[0.767s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[0.771s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[0.777s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[0.783s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[0.788s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[0.793s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[0.798s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[0.804s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[0.812s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[0.818s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[0.819s] -- Up-to-date symlink: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[0.819s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py
+[0.824s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[0.830s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[0.837s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[0.846s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[0.853s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[0.858s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[0.864s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[0.868s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[0.873s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[0.878s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[0.883s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[0.888s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[0.893s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[0.898s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.905s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[0.913s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.918s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.924s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[0.929s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[0.934s] -- Symlinking: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[0.940s] -- Up-to-date: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[0.940s] -- Up-to-date: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[0.940s] -- Up-to-date: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[0.940s] -- Up-to-date: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[0.940s] -- Up-to-date: /home/szeyuan/Desktop/ros/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[0.942s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/szeyuan/Desktop/ros/ros_ws/build/v4l2_camera

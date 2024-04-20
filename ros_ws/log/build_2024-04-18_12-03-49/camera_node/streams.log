@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/szeyuan/Desktop/ros/ros_ws/build/camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-camera-node -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/camera_node
+[0.022s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.114s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.135s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.367s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.401s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.405s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.485s] [0mgrabthecam not found - building it[0m
+[1.611s] [31mCMake Error at /home/szeyuan/Desktop/ros/ros_ws/build/camera_node/_deps/grabthecam-src/CMakeLists.txt:7 (find_package):
+[1.611s]   By not providing "FindRapidJSON.cmake" in CMAKE_MODULE_PATH this project
+[1.611s]   has asked CMake to find a package configuration file provided by
+[1.611s]   "RapidJSON", but CMake did not find one.
+[1.611s] 
+[1.611s]   Could not find a package configuration file provided by "RapidJSON" with
+[1.611s]   any of the following names:
+[1.611s] 
+[1.611s]     RapidJSONConfig.cmake
+[1.611s]     rapidjson-config.cmake
+[1.611s] 
+[1.611s]   Add the installation prefix of "RapidJSON" to CMAKE_PREFIX_PATH or set
+[1.611s]   "RapidJSON_DIR" to a directory containing one of the above files.  If
+[1.612s]   "RapidJSON" provides a separate development package or SDK, be sure it has
+[1.612s]   been installed.
+[1.612s] 
+[1.612s] [0m
+[1.612s] -- Configuring incomplete, errors occurred!
+[1.612s] See also "/home/szeyuan/Desktop/ros/ros_ws/build/camera_node/CMakeFiles/CMakeOutput.log".
+[1.619s] Invoked command in '/home/szeyuan/Desktop/ros/ros_ws/build/camera_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/szeyuan/Desktop/ros/ros_ws/src/ros2-camera-node -DCMAKE_INSTALL_PREFIX=/home/szeyuan/Desktop/ros/ros_ws/install/camera_node
